@@ -6,6 +6,10 @@ One of Innovative Design's Spring 2018 Web Development teams is working on a red
 
 Follow our progress at this repo and at the deployed site link above!
 
+### About
+
+<img src="https://raw.githubusercontent.com/InnovativeDesign/innovativedesign.club/master/static/img/logo__fulltype.svg?sanitize=true" width="350" /><br><br>
+[**Innovative Design**](https://innovativedesign.club)  is UC Berkeley’s premier creative agency. We are designers, photographers, and web developers together in a mission to Make Berkeley Beautiful.
 
 ### Team
 
@@ -37,13 +41,6 @@ _Advised by_
 
 Web Development Team Lead for Spring 2018
 <br/>
-
-### About
-
-<img src="https://raw.githubusercontent.com/InnovativeDesign/innovativedesign.club/master/static/img/logo__fulltype.svg?sanitize=true" width="350" /><br>
-[**Innovative Design**](https://innovativedesign.club)  is UC Berkeley’s premier creative agency. We are designers, photographers, and web developers together in a mission to Make Berkeley Beautiful.
-
-
 
 
 
