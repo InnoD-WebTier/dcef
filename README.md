@@ -40,9 +40,7 @@ Web Development Team Lead for Spring 2018
 
 ### About
 
-<img src="https://raw.githubusercontent.com/InnovativeDesign/innovativedesign.club/master/static/img/logo__fulltype.svg?sanitize=true" width="350" />
-<br></br>
-
+<img src="https://raw.githubusercontent.com/InnovativeDesign/innovativedesign.club/master/static/img/logo__fulltype.svg?sanitize=true" width="350" /><br>
 [**Innovative Design**](https://innovativedesign.club)  is UC Berkeley’s premier creative agency. We are designers, photographers, and web developers together in a mission to Make Berkeley Beautiful.
 
 
