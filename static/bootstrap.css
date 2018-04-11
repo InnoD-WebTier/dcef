@@ -260,7 +260,7 @@ th {
     border: 1px solid #ddd !important;
   }
 }
-@font-face {
+/*@font-face {
   font-family: 'Glyphicons Halflings';
 
   src: url('../fonts/glyphicons-halflings-regular.eot');
@@ -1064,7 +1064,7 @@ th {
 }
 .glyphicon-menu-up:before {
   content: "\e260";
-}
+}*/
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
