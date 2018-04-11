@@ -1,0 +1,23 @@
+
+.panel {
+  background-color: #264D68;
+  height: 30vw;
+  position: fixed;
+  color: white;
+}
+
+.panel__title {
+  font-family: BentonSans-Bold;
+  font-size: 48px;
+  text-align: center;
+}
+
+
+.panel__subtitle {
+  font-family: BentonSans-Book;
+  font-size: 13px;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  line-height: 1.8;
+}
