@@ -1,46 +1,35 @@
 import React from 'react'
-import Link from 'gatsby-link'
-// import '../css/bootstrap.css'
+// import Link from 'gatsby-link'
+import '../css/bootstrap.css'
 import '../css/post.scss'
+import Button from 'react-bootstrap/lib/Button';
+import PageHeader from 'react-bootstrap/lib/PageHeader';
+import Panel from 'react-bootstrap/lib/Panel';
 
 class PostPage extends React.Component {
 	render() {
 		return (
 			<div>
-				<div className='BlueBox'></div>
-			    <div>Post Page</div>
-			    <div>
-				    As the independent publication serving the UC Berkeley campus and the 
-				    city of Berkeley, The Daily Californian has a print circulation of 10,000 
-				    and additionally reaches more 36,000 students and 22,000 faculty and staff 
-				    on campus. The online version, dailycal.org, averages over 800,000 monthly 
-				    hits. Stay connected through our events and by liking our Facebook page.
-					
-					The Daily Californian Alumni Association was created to bring alumni of the 
-					newspaper together as well as to provide mentorship and financial support to 
-					the current student staff.
-				</div>
-				<div className='media-button'>
-					<div className='media-title'>Like us on Facebook!</div>
-				</div>
-			    <div className='media-button'>
-			    	<div className='media-title'>Follow us on Twitter!</div>
-			    </div>
-			    <div className='media-box'>
-			    	<div className='media-title'>Subscribe to the alumni newsletter!</div>
-			    	<div>
-			    		Want to stay connected and up to date on what your fellow Daily Cal Alumni 
-			    		are up to? Sign up for our free monthly online alumni newsletter below.
+				<Button bsStyle="link">Back to News and Events</Button>
+			    <PageHeader>
+			    	Article Title Here
+			    	<br></br>
+			    	<small>February 15, 2018</small>
+			    </PageHeader>
+				<Panel>
+				    <Panel.Body>
+				    	article content Here
+				    	Lorem ipsum dolor sit amet, et pro purto putant, nam sonet suscipit ea. Te iuvaret dissentias ius, te facer eripuit nam. At choro meliore dissentiet vim. Eu vix reprimique liberavisse.
 
-						If you would like to contribute to the newsletter by sharing work you have 
-						done recently or if you would like us to profile you and your work please 
-						contact alumni-newsletter@dailycal.org.
-			    	</div>
-			    	<div>(probably a form react component?)</div>
-			    	<div>SIGN UP NOW</div>
-			    </div>
-			    <Link to="/page-2/">Go to page 2</Link>
-			    <div className='footer'></div>
+						Quem equidem habemus per an. Ad tale mandamus molestiae usu, ut assum laoreet splendide eam. Mundi habemus suscipiantur eu usu, mel dicit vulputate ex. Qui atomorum definitionem ne, ex vero eripuit denique vel.
+
+						Eirmod adversarium vis ex, deleniti perpetua signiferumque sit ad. Ad sed menandri erroribus forensibus, ex quas viris ornatus vis, ei odio minimum consetetur has. In eius adipiscing nam, inani commune expetendis ad vim, enim partem deserunt ea pri. An vix vidisse liberavisse, aliquip aliquid erroribus mei at, no senserit elaboraret mel. Esse ponderum definitiones ne his.
+
+						Ne usu nulla homero persius. Pri eu quis aliquam, eius debet debitis ei cum. Sea ea autem recteque. Ut per tale blandit explicari. Vel no sensibus gubergren, no sea quot invidunt oporteat, mel dico offendit sententiae no.
+
+						Vel ne autem simul reformidans. Eum ne homero percipitur. An usu mollis consequat interpretaris, quo aliquip dolorem et. Dicat semper duo ei, in unum facete salutandi eam, ut choro mucius nostro usu. Qui in choro dissentiet, denique sapientem vituperatoribus cu vel.
+				    </Panel.Body>
+				</Panel>
 			</div>
 		);
 	}
