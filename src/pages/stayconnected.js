@@ -9,13 +9,15 @@ import FormGroup from 'react-bootstrap/lib/FormGroup';
 import FormControl from 'react-bootstrap/lib/FormControl';
 import ControlLabel from 'react-bootstrap/lib/ControlLabel';
 import HelpBlock from 'react-bootstrap/lib/HelpBlock';
+import DropdownButton from 'react-bootstrap/lib/DropdownButton';
+import MenuItem from 'react-bootstrap/lib/MenuItem';
 
 class StayConnectedPage extends React.Component {
 	render() {
 		return (
 			<div>
-				<div className='BlueBox'></div>
-			    <PageHeader>
+				<div className='blue_box'></div>
+			    <PageHeader className='page_title'>
 			    	Stay Connected
 			    </PageHeader>
 				<Panel>
@@ -31,8 +33,8 @@ class StayConnectedPage extends React.Component {
 						the current student staff.
 				    </Panel.Body>
 				</Panel>
-				<Button>Like us on Facebook!</Button>
-				<Button>Follow us on Twitter!</Button>
+				<Button bsSize="large" className="button_title"><h3>Like us on Facebook!</h3></Button>
+				<Button bsSize="large" className="button_title"><h3>Follow us on Twitter!</h3></Button>
 				<Panel>
 				    <Panel.Heading>Subscribe to the alumni newsletter!</Panel.Heading>
 				    <Panel.Body>
@@ -46,12 +48,12 @@ class StayConnectedPage extends React.Component {
 				          <ControlLabel>NAME</ControlLabel>
 				          <FormControl
 				            type="text"
-				            placeholder="first"
+				            placeholder="First"
 				          />
 				          <FormControl.Feedback />
 				          <FormControl
 				            type="text"
-				            placeholder="last"
+				            placeholder="Last"
 				          />
 				          <FormControl.Feedback />
 
@@ -60,6 +62,52 @@ class StayConnectedPage extends React.Component {
 				            type="text"
 				            placeholder="(xxx)xxx-xxxx"
 				          />
+				          <FormControl.Feedback />
+
+				          <ControlLabel>EMAIL</ControlLabel>
+				          <FormControl
+				            type="text"
+				            placeholder="Email"
+				          />
+				          <FormControl.Feedback />
+
+				          <ControlLabel>ADDRESS</ControlLabel>
+				          <FormControl
+				            type="text"
+				            placeholder="Street Address"
+				          />
+				          <FormControl.Feedback />
+				          <FormControl
+				            type="text"
+				            placeholder="Address Line 2"
+				          />
+				          <FormControl.Feedback />
+				          <FormControl
+				            type="text"
+				            placeholder="City"
+				          />
+				          <FormControl.Feedback />
+				          <FormControl
+				            type="text"
+				            placeholder="State/Province/Region"
+				          />
+				          <FormControl.Feedback />
+				          <FormControl
+				            type="text"
+				            placeholder="ZIP/Postal Code"
+				          />
+				          <FormControl.Feedback />
+				          <DropdownButton
+						      bsSize="small"
+						      title="Country"
+						      id="dropdown-size-small"
+						    >
+						      <MenuItem eventKey="1">Action</MenuItem>
+						      <MenuItem eventKey="2">Another action</MenuItem>
+						      <MenuItem eventKey="3">Something else here</MenuItem>
+						      <MenuItem divider />
+						      <MenuItem eventKey="4">Separated link</MenuItem>
+						  </DropdownButton>
 				        </FormGroup>
 				        <Button bsStyle="primary">SIGN UP NOW</Button>
 				    </Panel.Body>

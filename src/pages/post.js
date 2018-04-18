@@ -12,7 +12,7 @@ class PostPage extends React.Component {
 			<div>
 				<Button bsStyle="link">Back to News and Events</Button>
 			    <PageHeader>
-			    	Article Title Here
+			    	<h1 className="article_title">Article Title Here</h1>
 			    	<br></br>
 			    	<small>February 15, 2018</small>
 			    </PageHeader>
