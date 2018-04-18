@@ -1,0 +1,63 @@
+// $primary-color: #333;
+@font-face {
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crimson Text Regular'), local('CrimsonText-Regular'), url(../../static/fonts/crimsontext.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+$primary-font-stack: 'Crimson Text', serif;
+
+$primary-color: #06344A;
+$secondary-color: #fff6d8;
+
+.dnav__item {
+  color: $primary-color;
+  font-size: 15px;
+  line-height: 35px;
+}
+
+.dnav__button {
+  background-color: $primary-color;
+  color: white;
+}
+
+.splash {
+  height: 100vh;
+}
+
+.splash__left {
+  background-color: $primary-color;
+  height: inherit;
+}
+
+.splash__right {
+  background-attachment: fixed;
+  background-image: url("https://i.pinimg.com/originals/e7/4d/94/e74d9404b1c190396b788884005a742a.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  height: inherit;
+}
+
+.splash__left-text {
+  color: white;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.splash__left-headline {
+  margin-top: 10vh;
+  font-size: 2.2em;
+}
+
+.splash__left-subtitle {
+  margin-top: 5vh;
+  font-size: 2em;
+}
+
+.splash__left-button {
+  background-color: white;
+  color: black;
+  margin-top: 5vh;
+  font-size: 2em;
+}

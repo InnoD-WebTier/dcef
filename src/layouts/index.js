@@ -2,9 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
+import Grid from 'react-bootstrap/lib/Grid'
 import Header from '../components/Header'
-import './index.css'
+
 import '../../static/bootstrap.css'
+
+require('../styles/main.scss')
+
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -16,16 +20,9 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
-      {children()}
-    </div>
+      <Grid fluid={true}>
+        {children()}
+      </Grid>
   </div>
 )
 
