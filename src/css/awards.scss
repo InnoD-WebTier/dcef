@@ -1,8 +1,14 @@
+.blue_box {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #264D68;
+  height: 50%;
+}
 
 .panel {
   background-color: #264D68;
+  width: 100%;
   height: 30vw;
-  position: fixed;
   color: white;
 }
 
@@ -20,4 +26,17 @@
   text-align: center;
   margin: auto;
   line-height: 1.8;
+}
+
+.awards {
+  display: flex;
+}
+
+.awards__left {
+  padding-left: 8%;
+  padding-right: 4%;
+}
+
+.awards__right {
+  padding-right: 8%;
 }
